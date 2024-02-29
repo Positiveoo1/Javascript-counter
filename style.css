@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main h1 {
+    color: #fff;
+    padding: 10px;
+}
+#counter {
+    width: 150px;
+    height: 150px;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.count {
+    color: #fff;
+    font-size: 30px;
+}
+.label {
+    color: #fff;
+    margin: 10px 50px;
+}
+#reset {
+    width: 150px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
